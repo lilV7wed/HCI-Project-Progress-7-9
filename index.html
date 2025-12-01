@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navBar">
+                <img src="images/logo.png" class="logo" alt="">
+                <div class="navDiv">
+                    <a class="navA" href="index.html">Home</a>
+                    <a class="navA" href="outlet.html">Outlet</a>
+                    <a class="navA" href="partnership.html">Partnership</a>
+                    <a class="navA" href="status.html">Status of your laundry</a>
+                </div>
+                <div class="divBtn">
+                    <button id="resvBtn">Reservation</button>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="flavors">
+                <div class="FlavorText">
+                    <h1>Fresh</h1>
+                    <h1>Fast</h1>
+                    <h1>First Class</h1>
+                </div>
+                <div class="divFlavor">
+                    <div class="flavorIMG">
+                        <img src="images/clock.png" alt="graphic">
+                        <p>Pickup within 30 minutes</p>
+                    </div>
+                    <div class="flavorIMG">
+                        <img src="images/IDR.png" alt="graphic">
+                        <p>Price Starts at IDR 8.000</p>
+                    </div>
+                    <div class="flavorIMG">
+                        <img src="images/shirt.png" alt="graphic">
+                        <p>Express same-day wash & delivery</p>
+                    </div>
+                </div>
+                <div class="flavorPic">
+                    <img src="images/washing machine.png" alt="graphic">
+                </div>
+            </div>
+            <div class="resv">
+                <p id="resvClose">X</p>
+                <div class="resvCard">
+                    <h1>Laundry Reservation</h1>
+                    <div class="resvR">
+                        <div class="resvF">
+                            <h2>Name:</h2>
+                            <input type="text" placeholder="Please Enter Your Name Here...">
+                        </div>
+                        <div class="resvF">
+                            <h2>Address:</h2>
+                            <input type="text" placeholder="Please Enter Your Adress Here...">
+                        </div>
+                    </div>
+                    <div class="resvR2">
+                        <div class="resvF">
+                            <h2>Contact:</h2>
+                            <input type="tel" placeholder="Please Enter Your Phone Number Here...">
+                        </div>
+                    </div>
+                    <!-- <div class="resvR2">
+                        <div class="resvF">
+                            <h2>Select Type:</h2>
+                            <p>later</p>
+                        </div>
+                        <div class="resvF">
+                            <h2>Qty:</h2>
+                            <p>later</p>
+                        </div>
+                    </div> -->
+                    <div class="resvR3">
+                        <h2>Order items</h2>
+                        <form id="orderForm">
+                            <div id="rowsContainer"></div>
+                            <div class="actions">
+                                <button type="submit" id="form-submit-btn">Submit order</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="dateDiv">
+                        <p>Please set up a pickup date</p>
+                        <input type="date" id="myDate" value="2000-05-05">
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="info">
+                <h1>What We Can Do</h1>
+                <div class="infoR1">
+                    <div class="infoCard">
+                        <img src="images/kilo.png" alt="graphic">
+                        <p>Kilo-Based Laundry</p>
+                    </div>
+                    <div class="infoCard">
+                        <img src="images/bedsheet.png" alt="graphic">
+                        <p>Bed Sheet Laundry</p>
+                    </div>
+                    <div class="infoCard">
+                        <img src="images/bedcover.png" alt="graphic">
+                        <p>Bed Cover Laundry</p>
+                    </div>
+                </div>
+                <div class="infoR1">
+                    <div class="infoCard">
+                        <img src="images/doll.png" alt="graphic">
+                        <p>Doll Laundry</p>
+                    </div>
+                    <div class="infoCard">
+                        <img src="images/iron.png" alt="graphic">
+                        <p>Wash & Iron</p>
+                    </div>
+                    <div class="infoCard">
+                        <img src="images/dress.png" alt="graphic">
+                        <p>Dress Laundry</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+
+    <body></body>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
