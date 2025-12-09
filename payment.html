@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>payment page</title>
+<link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+
+<div class="bigBox">
+
+<h1>Finish Your Payment</h1>
+
+<label>Total to Pay</label>
+<input id="tot" value="8000" disabled>
+
+<label>Payment Method</label>
+<select id="pm">
+<option value="">-- choose --</option>
+<option value="cod">Cash on Delivery</option>
+<option value="bank">Bank Transfer</option>
+<option value="wallet">E-Wallet</option>
+</select>
+
+<div id="extra"></div>
+
+<button id="pay">Pay Now</button>
+
+<div id="ok"></div>
+
+</div>
+
+<script src="payment.js"></script>
+
+</body>
+</html>
